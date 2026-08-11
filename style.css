@@ -29,6 +29,10 @@ li {
   padding-top: 10px;
 }
 
+.purple {
+  color: #6415ff;
+}
+
 /* NAV BAR */
 .nav__container {
   display: flex;
@@ -54,7 +58,7 @@ li {
 
 .nav__logo--link:hover {
   color: #6415ff;
-  transition: all 300ms ease
+  transition: all 300ms ease;
 }
 
 .nav__link {
@@ -68,7 +72,7 @@ li {
 .nav__link:hover {
   color: #6415ff;
   text-decoration: underline;
-  transition: all 300ms ease
+  transition: all 300ms ease;
 }
 
 .nav__btn {
@@ -83,5 +87,35 @@ li {
 .nav__btn:hover {
   cursor: pointer;
   background-color: rgb(80, 17, 204);
-  transition: all 300ms ease
+  transition: all 300ms ease;
+}
+
+/* LANDING */
+
+.landing__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 100px;
+}
+
+.landing__visuals {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.landing__img {
+  width: 100%;
+  min-width: 0px;
+  max-width: 32rem;
+}
+
+.landing__title {
+  font-size: 36px;
+}
+
+.landing__para {
+  font-size: 16px;
+  margin: 32px 0;
 }
