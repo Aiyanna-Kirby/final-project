@@ -137,3 +137,64 @@ li {
 .email-input__btn {
   position: absolute;
 }
+
+/* FEATURES */
+
+.features__container {
+  padding: 80px 0;
+}
+
+.features__headings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.features__title {
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 16px;
+  margin: 0 0 16px;
+}
+
+.features__subtitle {
+  font-size: 48px;
+}
+
+.features__headings--para {
+  margin: 16px 0 0;
+  margin-bottom: 50px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 16px;
+  padding: 32px 8px;
+}
+
+.service {
+  display: flex;
+  width: calc(100% / 3);
+  font-size: 24px;
+}
+
+.service__description {
+  display: flex;
+  flex-direction: column;
+}
+
+#service__para {
+  padding: 4px 24px 16px 4px;
+}
+
+.service__icon {
+  height: 30px;
+  text-align: center;
+  color: #6415ff;
+  border: solid rgb(226, 232, 240) 2px;
+  border-radius: 9999px;
+}
