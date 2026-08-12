@@ -211,6 +211,13 @@ li {
   width: 50%;
   display: flex;
   flex-direction: column;
+  text-align: left;
+}
+
+.quality-work__img {
+  width: 100%;
+  min-width: 0px;
+  max-width: 32rem;
 }
 
 .quality-work__subtitle {
@@ -228,12 +235,18 @@ li {
   width: 25%;
 }
 
-.quality-work__img {
+
+
+/* STEPS */
+
+.steps__headings {
   width: 50%;
+  display: flex;
+  flex-direction: column;
 }
 
-.quality-work__img {
+.steps__img {
   width: 100%;
   min-width: 0px;
-  max-width: 32rem;
+  max-width: 32rem
 }
