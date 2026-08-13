@@ -142,6 +142,10 @@ li {
   margin: 32px 0;
 }
 
+.landing__line {
+  padding: 16px 0 8px 0;
+}
+
 .landing__email {
   width: 100%;
   max-width: 448px;
@@ -223,6 +227,11 @@ li {
 
 /* QUALITY WORK */
 
+.quality-work__row {
+  display: flex;
+}
+
+
 #quality-work__visual {
   display: flex;
   flex-direction: row;
@@ -230,6 +239,8 @@ li {
 }
 
 .quality-work__img {
+  display: flex;
+  flex-direction: row;
   width: 100%;
   min-width: 0px;
   max-width: 32rem;
@@ -263,6 +274,10 @@ li {
   flex-direction: row;
   justify-content: space-between;
   padding: 100px;
+}
+
+.steps__row {
+  display: flex;
 }
 
 .steps__visual {
