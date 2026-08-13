@@ -227,10 +227,14 @@ li {
 
 /* QUALITY WORK */
 
+.quality__container {
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
 .quality-work__row {
   display: flex;
 }
-
 
 #quality-work__visual {
   display: flex;
@@ -270,10 +274,8 @@ li {
 /* STEPS */
 
 .steps__container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 100px;
+  padding-top: 72px;
+  padding-bottom: 72px;
 }
 
 .steps__row {
@@ -281,8 +283,6 @@ li {
 }
 
 .steps__visual {
-  display: flex;
-  flex-direction: column;
   width: 50%;
 }
 
