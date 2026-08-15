@@ -344,6 +344,12 @@ li {
   width: 50%;
 }
 
+.values__img {
+  width: 100%;
+  min-width: 0px;
+  max-width: 32rem;
+}
+
 .values__headings {
   width: 50%;
 }
@@ -408,13 +414,4 @@ li {
 
 .values__btn {
   margin-top: 32px;
-}
-
-
-.values__img {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  min-width: 0px;
-  max-width: 32rem;
 }
