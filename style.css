@@ -421,3 +421,117 @@ li {
 .values__btn {
   margin-top: 32px;
 }
+
+/* PRICING */
+
+.pricing__container {
+  padding: 72px;
+}
+
+.pricing__headings {
+  text-align: center;
+  margin: 40px 0 0;
+}
+
+.pricing__subtitle {
+  color: #243e63;
+}
+
+.pricing__para {
+  margin: 16px 0 0;
+  color: #7c8ba1;
+}
+
+.pricing__plans {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.plan {
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: row;
+}
+
+.plan__price {
+  margin: 4px;
+}
+
+.plan__option {
+  margin: 20px 0 0;
+}
+
+.plan__heading {
+  padding: 32px 0;
+  text-align: center;
+}
+
+.plan__options {
+  padding: 32px;
+  text-align: center;
+}
+
+.plan__btn {
+  padding: 32px 64px;
+  text-align: center;
+}
+
+.plan__personal {
+  margin: 64px 32px 0 0;
+  padding: 8px 32px 0;
+}
+
+.personal__btn {
+  color: white;
+  font-size: 14px;
+  background-color: #6415ff;
+  padding: 12px 32px;
+  border: none;
+  border-radius: 50px;
+}
+
+.personal__btn:hover {
+  cursor: pointer;
+  background-color: rgb(80, 17, 204);
+  transition: all 300ms ease;
+}
+
+.plan__business {
+  margin: 64px 32px 0 0;
+  padding: 8px 32px 0;
+}
+
+.business__btn {
+  color: white;
+  font-size: 14px;
+  background-color: #6415ff;
+  padding: 12px 32px;
+  border: none;
+  border-radius: 50px;
+}
+
+.business__btn:hover {
+  cursor: pointer;
+  background-color: rgb(80, 17, 204);
+  transition: all 300ms ease;
+}
+
+.plan__enterprise {
+  margin: 64px 32px 0 0;
+  padding: 8px 32px 0;
+}
+
+.enterprise__btn {
+  color: white;
+  font-size: 14px;
+  background-color: #6415ff;
+  padding: 12px 32px;
+  border: none;
+  border-radius: 50px;
+}
+
+.enterprise__btn:hover {
+  cursor: pointer;
+  background-color: rgb(80, 17, 204);
+  transition: all 300ms ease;
+}
