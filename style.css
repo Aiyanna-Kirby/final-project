@@ -339,19 +339,21 @@ li {
   padding-bottom: 72px;
 }
 
-.value__row {
+.values__row {
   display: flex;
+}
+
+.values__headings {
+  width: 50%;
+}
+
+.values__visual {
   width: 50%;
 }
 
 .values__img {
   width: 100%;
-  min-width: 0px;
   max-width: 32rem;
-}
-
-.values__headings {
-  width: 50%;
 }
 
 .values__subtitle {
@@ -386,6 +388,7 @@ li {
   width: 36px;
   background-color: #9ae6b4;
   border-radius: 50%;
+  padding: 8px;
 }
 
 .professionalism__icon {
@@ -398,6 +401,7 @@ li {
   width: 36px;
   background-color: #feb2b2;
   border-radius: 50%;
+  padding: 8px;
 }
 
 .principles__professionalism {
@@ -406,6 +410,8 @@ li {
 
 .principles__heading {
   color: #243e63;
+  margin-top: 4px;
+  margin-left: 8px;
 }
 
 .principles__para {
