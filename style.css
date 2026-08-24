@@ -6,10 +6,6 @@
   box-sizing: border-box;
 }
 
-body {
-  padding: 32px;
-}
-
 a {
   text-decoration: none;
 }
@@ -56,10 +52,12 @@ li {
 }
 
 /* NAV BAR */
+
 .nav__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 32px;
 }
 
 .nav__logo-link {
@@ -648,12 +646,18 @@ li {
 .testimonial__people {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .female__testimonial {
   height: 80px;
   width: 80px;
   border-radius: 50%;
+}
+
+.testimonial__female {
+  display: flex;
+  flex-direction: row;
 }
 
 .testimonial__description {
@@ -677,6 +681,8 @@ li {
   padding-right: 24px;
 }
 
+.testimonial__arrows {
+}
 
 /* GET STARTED*/
 
