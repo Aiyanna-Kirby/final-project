@@ -52,7 +52,6 @@ li {
   font-weight: 700;
   text-transform: capitalize;
   font-size: 16px;
-  margin: 0 0 16px;
 }
 
 /* NAV BAR */
@@ -250,8 +249,7 @@ li {
 /* QUALITY WORK */
 
 .quality__container {
-  padding-top: 72px;
-  padding-bottom: 72px;
+  padding: 96px 0;
 }
 
 .quality-work__row {
@@ -279,13 +277,12 @@ li {
 }
 
 .quality-work__subtitle {
-  margin: 16px 0 0;
+  margin: 16px 0;
   font-size: 48px;
   color: #243e63;
 }
 
 .quality-work__headings--para {
-  margin: 16px 0 0;
   font-size: 16px;
   color: #7c8ba1;
 }
