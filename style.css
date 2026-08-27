@@ -32,6 +32,7 @@ li {
 .btn {
   color: white;
   font-size: 14px;
+  font-weight: bold;
   background-color: #6415ff;
   padding: 12px 32px;
   border: none;
@@ -372,6 +373,8 @@ li {
 
 .values__row {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .values__headings {
@@ -450,7 +453,7 @@ li {
 }
 
 .values__btn {
-  margin-top: 32px;
+  margin-top: 48px;
 }
 
 /* PRICING */
