@@ -472,8 +472,10 @@ li {
   align-items: center;
 }
 
-.pricing__headings {
-  text-align: center;
+.pricing__title {
+  color: #6415ff;
+  letter-spacing: 1.6px;
+  font-weight: 700;
 }
 
 .pricing__subtitle {
@@ -492,19 +494,32 @@ li {
   line-height: 1.625;
 }
 
-.plan {
-  width: calc(100% / 3);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
 .pricing__plans {
   display: flex;
   position: relative;
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
+}
+
+.plan {
+  position: relative;
+  margin-top: 4rem;
+  display: flex;
+  width: 100%;
+  max-width: 24rem;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  background-color: rgb(255 255 255);
+  margin-right: 2rem;
+  padding-top: 0.5rem;
+  text-align: center;
+  color: rgb(26 32 44);
+  box-shadow:
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
 
 .plan__heading {
@@ -536,19 +551,31 @@ li {
 }
 
 .plan__btn {
-  padding: 32px 64px;
+  padding: 32px;
   text-align: center;
 }
 
-.plan__personal {
-  margin: 64px 32px 0 0;
-  padding: 8px 32px 0;
-  border: 2px solid #d6dee8;
-  border-radius: 30px;
+.plan__stripe {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  height: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.plan:nth-child(1) .plan__stripe {
+  color: #f7fafc;
+  background: linear-gradient(
+    115deg,
+    rgb(56, 178, 172) 0%,
+    rgb(129, 230, 217) 100%
+  );
 }
 
 .personal__btn {
-  padding: 12px 32px;
+  padding: 16px 32px;
   border: none;
   border-radius: 50px;
   width: 188px;
@@ -572,7 +599,7 @@ li {
   transition: all 300ms ease;
 }
 
-.plan__business {
+.plan__business0 {
   margin: 64px 32px 0 0;
   padding: 8px 32px 0;
   background: linear-gradient(
@@ -604,13 +631,6 @@ li {
   transform: translateY(1.5px);
   box-shadow: 0 2px 4px black;
   transition: all 300ms ease;
-}
-
-.plan__enterprise {
-  margin: 64px 32px 0 0;
-  padding: 8px 32px 0;
-  border: 2px solid #d6dee8;
-  border-radius: 30px;
 }
 
 .enterprise__btn {
