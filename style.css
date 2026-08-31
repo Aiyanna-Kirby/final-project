@@ -1019,3 +1019,23 @@ footer {
   color: #7c8ba1;
   transition: all 300ms ease;
 }
+
+/* Tablets and Large Phones */
+
+@media (max-width: 768px) {
+  .nav__links {
+    display: none;
+  }
+
+  .btn__menu {
+    display: block;
+    background-color: transparent;
+    border: none;
+    transition: all 300ms ease;
+    cursor: pointer;
+  }
+
+  .btn__menu:hover {
+    color: #6415ff;
+  }
+}
