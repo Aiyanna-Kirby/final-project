@@ -1138,11 +1138,19 @@ footer {
     margin: 0 auto;
   }
 
+  .landing__title {
+    font-size: 30px;
+  }
+
   .landing__img {
     max-width: 512px;
   }
 
-  .landing__title {
-    font-size: 30px;
+  .landing__line {
+    margin: 40px 0 0 0;
+  }
+
+  .landing__description--logos {
+    width: 80%;
   }
 }
