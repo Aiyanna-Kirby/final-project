@@ -1032,6 +1032,10 @@ footer {
   display: none;
 }
 
+.menu:target {
+  display: block;
+}
+
 /* Tablets and Large Phones */
 
 @media (max-width: 768px) {
