@@ -1153,4 +1153,21 @@ footer {
   .landing__description--logos {
     width: 80%;
   }
+
+  .features__headings--para {
+    width: 70%;
+  }
+
+  .services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .service {
+    width: 100%;
+    max-width: 512px;
+    margin: 0 auto;
+  }
 }
