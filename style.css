@@ -1186,6 +1186,25 @@ footer {
   }
 
   .quality-work__img {
-    width: 100%
+    width: 100%;
+  }
+
+  .steps__headings {
+    padding-top: 32px;
+    padding-left: 0;
+    padding-bottom: 0;
+  }
+
+  .steps__row {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .steps__title {
+    text-align: center;
+  }
+
+  .steps__subtitle {
+    text-align: center;
   }
 }
