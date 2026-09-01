@@ -1039,6 +1039,12 @@ footer {
     display: inline;
     text-decoration: none;
   }
+
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
   .nav__links {
     display: none;
   }
@@ -1115,5 +1121,28 @@ footer {
     border-radius: 500px;
     border: none;
     width: 25%;
+  }
+
+  .landing__container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .landing__visuals {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 512px;
+    margin: 0 auto;
+  }
+
+  .landing__img {
+    max-width: 512px;
+  }
+
+  .landing__title {
+    font-size: 30px;
   }
 }
