@@ -1287,9 +1287,40 @@ footer {
 
   /* PRICING */
 
-  /* BURGERMENU */
+  .pricing__subtitle {
+    font-size: 48px;
+  }
+
+  .pricing__para {
+    font-size: 16px;
+  }
+
+  .pricing__plans {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
 
   /* TESTIMONIALS */
+
+  .testimonial__display {
+    padding-left: 0;
+    padding-top: 24px;
+    text-align: center;
+  }
+
+  .testimonial__subtitle {
+    font-size: 48px;
+  }
+
+  .testimonial__para {
+    font-size: 16px;
+  }
+
+  .testimonial__people {
+    justify-content: space-evenly;
+  }
 
   /* GET STARTED */
 
