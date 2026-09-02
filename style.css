@@ -1193,6 +1193,10 @@ footer {
     width: 100%;
   }
 
+  .steps__img {
+    width: 100%;
+  }
+
   .steps__headings {
     padding-top: 32px;
     padding-left: 0;
@@ -1210,5 +1214,21 @@ footer {
 
   .steps__subtitle {
     text-align: center;
+  }
+
+  .steps__number {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .steps__number--subtitle {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .number__direct {
+    padding-left: 20px
   }
 }
