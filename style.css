@@ -1287,6 +1287,10 @@ footer {
 
   /* PRICING */
 
+.pricing__title {
+  padding-right: 24px;
+}
+
   .pricing__subtitle {
     font-size: 48px;
   }
