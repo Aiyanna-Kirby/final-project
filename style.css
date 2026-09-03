@@ -1341,4 +1341,17 @@ footer {
   }
 
   /* FOOTER */
+
+  .footer__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer__info--logo-link,
+  .footer__info--para,
+  .footer__social--links {
+    margin: 16px 0;
+  }
 }
