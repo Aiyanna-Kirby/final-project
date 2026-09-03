@@ -1274,7 +1274,7 @@ footer {
   }
 
   .affordable__icon,
-  .professionalism__icon  {
+  .professionalism__icon {
     justify-content: center;
     align-items: center;
     padding-bottom: 8px;
@@ -1287,9 +1287,9 @@ footer {
 
   /* PRICING */
 
-.pricing__title {
-  padding-right: 24px;
-}
+  .pricing__title {
+    padding-right: 24px;
+  }
 
   .pricing__subtitle {
     font-size: 48px;
@@ -1327,6 +1327,18 @@ footer {
   }
 
   /* GET STARTED */
+
+  .get-started__heading {
+    padding-bottom: 4px;
+    font-size: 28px;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .get-started__btns {
+    width: auto;
+    margin-top: 16px;
+  }
 
   /* FOOTER */
 }
